@@ -3,5 +3,5 @@ It implements distance residuals, their analytic Jacobian, damped least-squares
 steps, and a simple accept/reject rule to adjusts damping.
 
 ```sh
-uv run --with numpy --with matplotlib exercise.py
+uv run --with numpy --with matplotlib lm_opt.py
 ```
